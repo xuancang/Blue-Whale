@@ -15,4 +15,3 @@ s=int(b[8])+int(b[9])*int(b[10])-int(b[11])
 #a=ss.get('http://123.207.149.64:23331/calculator/',data=str(s),cookies=coo)
 a=ss.get('http://123.207.149.64:23331/calculator/?answer='+str(s),cookies=coo)
 print(a.text)
-
